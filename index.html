@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" /> 
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./assets/echio-removebg-preview.png" alt="logo" width="50px"/>
+        <ul class="home-section">
+          <li>
+            <img src="./assets/home-solid-24.png" alt="home-img" width="18px"/>
+            <span>HOME</span>
+          </li>
+          <li>
+            <img src="./assets/group-solid-24.png" alt="inf-img" width="18px"/>
+            <span>INFLUENCERS</span>
+          </li>
+          <li>
+            <img src="./assets/collection-solid-24.png" alt="collec-img" width="18px"/>
+            <span>COLLECTIONS</span>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-tab-container center-preset">
+          <span class="nav-text">HOW IT WORKS</span>
+          <img src="./assets/bell-regular-24.png" alt="bell-icon" width="50px" class="bell-icon"/>
+          <button class="nav-btn">
+            <img src="./assets/user-circle-solid-24.png" alt="user-icon" width="25px"/>
+            <img src="./assets/chevron-down-regular-24.png" alt="drop-down" width="25px"/>
+          </button>
+      </div>
+    </nav>
+    <hr>
+    <div class="card-section">
+        <div class="card-body card1">
+            <div class="title-sec">
+                <div class="icon">
+                    <img src="./assets/megaphone-solid-24.png" alt="speaker">
+                </div>
+                <div class="r-side">
+                    <h1>2</h1>
+                    <p>Campaigns</p>
+                </div>
+            </div>
+            <div class="l-side">
+                <ul class="low-side">
+                    <li class="active">
+                        <p class="number">0</p>
+                        <span>Active</span>
+                    </li>
+                    <li class="draft">
+                        <p class="number">0</p>
+                        <span>Draft</span>
+                        
+                    </li>
+                    <li class="ended">
+                        <p class="number">2</p>
+                        <span>Ended</span>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-body card2">
+            <div class="title-sec">
+                <div class="icon">
+                    <img src="./assets/target.png" alt="speaker">
+                </div>
+                <div class="r-side">
+                    <h1>8.8K</h1>
+                    <p>Total Reach</p>
+                </div>
+            </div>
+            <div class="l-side">
+                <ul class="low-side">
+                    <li class="">
+                        <p class="number">8.8K</p>
+                        <span>Instagram</span>
+                    </li>
+                    <li class="draft">
+                        <p class="number">0</p>
+                        <span>Youtube</span>
+                        
+                    </li>
+                    <!-- <li class="ended">
+                        <p class="number">2</p>
+                        <span>Ended</span>
+                        
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="card-body card3">
+            <div class="title-sec">
+                <div class="icon">
+                    <img src="./assets/multiple-users-silhouette.png" alt="speaker">
+                </div>
+                <div class="r-side">
+                    <h1>1</h1>
+                    <p>Influencers</p>
+                </div>
+            </div>
+            <div class="l-side">
+                <ul class="low-side">
+                    <li class="">
+                        <p class="number">11</p>
+                        <span>Shortlists</span>
+                    </li>
+                    <!-- <li class="draft">
+                        <p class="number">0</p>
+                        <span>Draft</span>
+                        
+                    </li>
+                    <li class="ended">
+                        <p class="number">2</p>
+                        <span>Ended</span>
+                        
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="card-body card4">
+            <div class="title-sec">
+                <div class="icon">
+                    <img src="./assets//gallery.png" alt="speaker">
+                </div>
+                <div class="r-side">
+                    <h1>350K</h1>
+                    <p>Posts</p>
+                </div>
+            </div>
+            <div class="l-side">
+                <ul class="low-side">
+                    <li class="">
+                        <p class="number">0</p>
+                        <span>Briefs</span>
+                    <!-- </li>
+                    <li class="draft">
+                        <p class="number">0</p>
+                        <span>Draft</span>
+                        
+                    </li>
+                    <li class="ended">
+                        <p class="number">2</p>
+                        <span>Ended</span>
+                        
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="campaign-section">
+      <div class="campaign-top">
+        <h2>Campaigns</h2>
+        <div class="c-top-rside">
+          <div class="search-bar">
+            <input type="text" class="input-field" placeholder="Search"><img src="./assets/search.png" alt="" class="s-icon" width="20px"> </input>
+          </div>
+          <button>
+            <img src="./assets/plus-regular-24.png" alt="add" class="icon3">
+            <p>Create Campaign</p>
+          </button>
+        </div>
+      </div>
+      <div class="c-table">
+        <hr>
+        <div class="campaign-title">
+          <span>Name</span>
+          <span>Status</span>
+          <span>Objective</span>
+          <span>Reach</span>
+          <span>Eng.(%)</span>
+          <span>Start</span>
+          <span>End</span>
+        </div>
+        <hr>
+        <div class="campaign-list">
+            <span class="name"><strong>Demo-Campaign (Do Not Edit)</strong></span>
+            <div class="btns">
+              <button class="campaign-list-btn1">Manage</button>
+              <button class="campaign-list-btn2"><img src="./assets/chat-regular-24.png" alt="chat" width="15px" class="chat">Chat</button>
+            </div>
+            <span>Ended</span>
+            <span>Reach</span>
+            <span>0</span>
+            <span>0.00</span>
+            <span>August 24th, 20 <span>12:00AM</span></span>
+            <span>August 26th, 20 <span>11:59AM</span></span>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </body>
+</html>
